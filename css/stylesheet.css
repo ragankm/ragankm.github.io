@@ -1,0 +1,172 @@
+/*----------------------- global formatting ----------------- */
+html {
+    background-color: #2C3531;
+    font-family: 'Titillium Web', sans-serif;
+    color: #9090a2;
+    font-size: 20px;
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+h1 {
+    color: #506F8C;
+}
+.header{
+    background-color: #2C3531;
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(45deg, #29323c, #485563);
+    min-height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: #2C3531;
+    left: 0; right: 0; bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
+a:link {
+    color: #506F8C;
+    text-decoration: none;
+    text-transform: text;
+    transition: 0.2s;
+    -moz-transition: 0.2s;      /*Firefox*/
+    -webkit-transition: 0.2s;   /*Safari*/
+    -o-transition: 0.2s;        /*Opera*/
+}
+.link:hover {
+    color: #009BF9;
+}
+#link:hover {
+    color: #009BF9;
+}
+a:visited {
+    color: #506F8C;
+}
+hr {
+    background-color: dimgrey !important;
+    color: dimgrey !important;
+    height: 1px !important;
+    width: 60% !important;
+    margin: 50px auto;
+}
+.projectTable {
+    margin: 20px auto;
+    /*border: solid 2px white;*/
+}
+.projectTd {
+    vertical-align: top;
+    padding: 30px 50px;
+    width: 50%;
+    /*border: solid 1px gray;*/
+}
+/* --------------------- Containers ------------------------ */
+.contentWrapper{
+    margin: auto;
+    width: 70%;
+    padding: 0 10px;
+    /*border: solid 1px white;*/
+}
+.sectionContainer {
+    margin: 0 auto 20px auto;
+    width: 70%;
+    padding: 0 10px;
+}
+.imgWrapper > img{
+    object-fit: fill;
+    height: 24px;
+}
+.imgWrapper:hover{
+    transition: 0.2s;
+}
+.socialMediaBtn {
+    background-color: transparent;
+    border-radius: 50%;
+    height: 24px;
+}
+.socialMediaBtn:hover {
+    transition: 0.2s;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.myNameTable {
+    margin: auto;
+    /*border: solid 1px white;*/
+}
+.myNameTableTd {
+
+    padding: 0 5px;
+    vertical-align: center;
+    align-content: center;
+}
+#padding {
+    margin: 20px auto 0;
+}
+/*#push{
+    margin: 10px 0 0 10px;
+}*/
+#floatLeft{
+    float: left;
+}
+#floatRight{
+    float: right;
+    margin-right: 100px;
+}
+.profileContainer{
+    margin: auto;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+}
+.imageCropper{
+    border-radius: 50%;
+    border: solid 2px white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.profilePic{
+    display: inline;
+    margin: 0 auto;
+    /* margin-left: 1px; */
+    max-height: 170%;
+    max-width: auto;
+}
+.photo > img {
+    object-fit: contain;
+    width: 20vw;
+    max-height: 30vh;
+    margin: 10px 0;
+}
+.roundCorner {
+    border-radius: 10px;
+}
+/*-------------------projects formatting---------------------*/
+.aContainer:hover {
+    transition: 0.2s;
+}
+.aContainer:hover img {     /*scales the image on hover*/
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+/*---------------------- misc formatting -------------------------*/
+.myName{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #009BF9;
+}
+.centerText{
+    text-align: center;
+    margin: 10px 0;
+}
